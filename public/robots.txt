@@ -1,0 +1,4 @@
+# Allow crawlers to read the HTML noindex instruction.
+# The resume is a separate resource; ask crawlers not to fetch it.
+User-agent: *
+Disallow: /resume.pdf
