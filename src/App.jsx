@@ -19,9 +19,16 @@ const jobs = [
   ] },
 ];
 const projects = [
-  { name: 'Speed Camera Map', type: 'Personal project', description: 'An interactive map for finding speed cameras across South Korea. Built the FastAPI backend, transformed public data into geospatial records, and automated daily updates on Oracle Cloud. Integrated Naver Maps and VWorld address search.', stack: 'Python · FastAPI · JavaScript · Oracle Cloud', links: [['Live site', 'https://speedcameramap.mschoi.com/']] },
-  { name: 'Precipitation Nowcasting', type: 'Georgia Tech · Team project', description: 'Short-term precipitation forecasting from NOAA radar data. Implemented SmaAt-UNet, loss functions, and evaluation metrics in PyTorch; trained and evaluated three architectures across five loss functions on an H100 GPU.', stack: 'Python · PyTorch · NOAA NEXRAD', links: [['GitHub', 'https://github.com/reason1241/ClearSky-LSTM']] },
-  { name: 'Trend Feed', type: 'Personal project', description: 'A browser extension that turns the new-tab page into a focused RSS dashboard. Supports RSS and Atom feeds, saves feed preferences locally, and packages releases for Chrome and Microsoft Edge.', stack: 'JavaScript · Manifest V3 · RSS / Atom · GitHub Actions', links: [['Live demo', 'https://mschoi.com/trend-feed/'], ['GitHub', 'https://github.com/reason1241/trend-feed']] },
+  { name: 'Speed Camera Map', type: 'Personal project', description: 'Built and deployed an interactive speed-camera map with a FastAPI backend and address-based search. Developed preprocessing scripts for public geospatial data and automated daily updates on Oracle Cloud. Integrated Naver Maps for visualization and VWorld for address search.', stack: 'Python · FastAPI · JavaScript · Oracle Cloud', links: [['Live site', 'https://speedcameramap.mschoi.com/']] },
+  {
+    name: 'AI Pre-Visit Assistant',
+    type: 'Georgia Tech · Team project',
+    description: 'Built FastAPI APIs for a patient appointment-preparation assistant, retrieving and parsing six FHIR resource types and preprocessing de-identified MIMIC-IV-FHIR data. Integrated Gemini and LangChain retrieval, developed React login, notepad, and chat-history features, and deployed the unified service on GCP.',
+    stack: 'Python · FastAPI · React · FHIR · Gemini · LangChain · GCP',
+    links: [['Presentation & demo', 'https://www.youtube.com/watch?v=WSCLfOhazjw']],
+  },
+  { name: 'Precipitation Nowcasting', type: 'Georgia Tech · Team project', description: 'Implemented SmaAt-UNet in PyTorch to predict precipitation from NOAA NEXRAD radar data. Implemented Balanced MSE, Balanced MAE, and SSIM losses, along with FSS and RAPSD evaluation metrics. Trained and evaluated three architectures across five loss functions on an H100 GPU.', stack: 'Python · PyTorch · NOAA NEXRAD', links: [['GitHub', 'https://github.com/reason1241/ClearSky-LSTM']] },
+  { name: 'Trend Feed', type: 'Personal project', description: 'Built a browser extension that replaces the new-tab page with an RSS dashboard. Added RSS and Atom feed support, local storage for feed preferences, and automated release packaging for Chrome and Microsoft Edge.', stack: 'JavaScript · Manifest V3 · RSS / Atom · GitHub Actions', links: [['Live demo', 'https://mschoi.com/trend-feed/'], ['GitHub', 'https://github.com/reason1241/trend-feed']] },
 ];
 function Link({ href, children, ...props }) {
   return <a href={href} target="_blank" rel="noopener noreferrer" {...props}>{children}</a>;

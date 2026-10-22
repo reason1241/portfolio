@@ -5,7 +5,8 @@
 - Use the first selected design: white, single column, centered introduction, blue text links, thin gray dividers, resume-like typography. Keep it responsive.
 - Present software/data engineering experience and deeper ML study at Georgia Tech.
 - Selected experience: OVERDARE (Data Engineer, May–Oct 2024), NHN DATA, NHN, NHN PAYCO. Include OVERDARE with concise, source-supported responsibilities; the user does not recall exact details, so do not expand claims beyond supplied resume and LinkedIn text.
-- Selected projects: Speed Camera Map, Precipitation Nowcasting, Trend Feed. No DoRA for now.
+- Selected projects, in order: Speed Camera Map, AI Pre-Visit Assistant, Precipitation Nowcasting, Trend Feed. AI Pre-Visit Assistant is a Georgia Tech team project (Feb–Apr 2026); personal contributions are supported by the HEALTH resume. Link its YouTube presentation and demo. No DoRA for now.
+- Use the SWE, ML, and HEALTH resumes as primary wording sources for the corresponding projects. Keep all project descriptions consistent: concise paragraphs with action verbs describing personal contributions, followed by a technology line. No one-off project bullet lists. Trend Feed uses its project documentation because it is not listed in those resumes.
 - Never add the source Google Slides portfolio URL or deck to this repository or website.
 - Host on GitHub Pages at portfolio.mschoi.com. Keep HTML noindex; do not describe it as access control.
 - Do not publish or push unless requested.

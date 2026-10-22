@@ -22,7 +22,7 @@ No actionable P0/P1/P2 findings remain.
 - Spacing/layout: centered 880px column, generous outer margins, thin section rules, desktop dates and links aligned right. Actual experience bullets and third job extend the page. Mobile stacks dates and links, preserves 20px margins, and shows no horizontal overflow at 390px or 320px.
 - Colors/tokens: white background, near-black headings, gray body, blue underlined links, pale gray rules. Body and link colors are readable against white. Keyboard focus has a visible blue outline.
 - Images/assets: the chosen design has no image, logo, illustration, or icon assets to recreate. No placeholders or decorative substitutions were introduced.
-- Copy/content: reviewed introduction, four jobs, three agreed projects, and two education entries. Team project identified. OVERDARE included as the most recent role following the user’s clarification; full downloadable resume retained. Removed date decoration and repeated contact block in favor of short footer, as discussed. No unverified usage metric, DoRA claim, or source slide URL appears in page content.
+- Copy/content: reviewed introduction, four jobs, four agreed projects, and two education entries. Team project identified. OVERDARE included as the most recent role following the user’s clarification; full downloadable resume retained. Removed date decoration and repeated contact block in favor of short footer, as discussed. No unverified usage metric, DoRA claim, or source slide URL appears in page content.
 
 ## Comparison history
 
@@ -57,3 +57,11 @@ No actionable P0/P1/P2 findings remain.
 ## OVERDARE content update
 
 The user clarified that the earlier omission reflected uncertainty about details and requested inclusion. Added Data Engineer, May–October 2024, as the newest role. Used only supplied responsibilities: game-log data pipelines, dbt transformations in Snowflake, and Kafka pipeline monitoring on Kubernetes. Role labels now use entry-specific data. Production build and diff whitespace checks passed; browser rendering confirms the title, dates, and responsibilities. Latest experience screenshot: `/private/tmp/portfolio-overdare.png`. No style or interaction changes were made. Earlier desktop comparison evidence describes the original page before this added entry.
+
+## AI Pre-Visit Assistant content update — 2026-10-22
+
+Added the user-approved HEALTH-resume project as the second selected work entry, following Speed Camera Map. Includes Georgia Tech team attribution, Feb–Apr 2026 dates, three documented contribution bullets, technologies, and the supplied YouTube presentation link. Existing projects remain in order. Shared project bullet styles reuse the experience bullet spacing. Production build and diff whitespace check passed. Browser inspection confirmed all four project entries, correct video destination, and readable desktop layout without overlap. Updated screenshot: `/private/tmp/portfolio-ai-previsit.png`. Prior screenshots describe earlier content; the visual layout is unchanged. No push or deployment performed.
+
+## Consistent project writing — 2026-10-22
+
+Rechecked all three resume variants. Replaced the AI assistant’s unique bullet list with a concise paragraph. Standardized project descriptions around past-tense action verbs and documented contributions. Speed Camera Map follows SWE wording, AI Pre-Visit Assistant follows HEALTH, and Nowcasting follows ML. Trend Feed follows its existing project documentation. Removed project-only list rendering and styles. Build and diff whitespace checks passed. Browser inspection shows the AI and Nowcasting entries share the same paragraph, label, and technology-line structure; screenshot: `/private/tmp/portfolio-consistent-projects.png`. No publication performed.
