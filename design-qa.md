@@ -65,3 +65,7 @@ Added the user-approved HEALTH-resume project as the second selected work entry,
 ## Consistent project writing — 2026-10-22
 
 Rechecked all three resume variants. Replaced the AI assistant’s unique bullet list with a concise paragraph. Standardized project descriptions around past-tense action verbs and documented contributions. Speed Camera Map follows SWE wording, AI Pre-Visit Assistant follows HEALTH, and Nowcasting follows ML. Trend Feed follows its existing project documentation. Removed project-only list rendering and styles. Build and diff whitespace checks passed. Browser inspection shows the AI and Nowcasting entries share the same paragraph, label, and technology-line structure; screenshot: `/private/tmp/portfolio-consistent-projects.png`. No publication performed.
+
+## Detailed portfolio link — 2026-10-22
+
+The user explicitly superseded the earlier instruction excluding the Slides link. Added Detailed portfolio after Resume in the header; it opens the supplied Google Slides URL in a new tab using the existing safe external-link component. Updated AGENTS and README to reflect the current preference. Narrow-screen header links wrap with spacing and without orphaned separators. Build and diff whitespace checks passed. Browser inspection confirmed the URL and readable header layout; screenshot: `/private/tmp/portfolio-slides-link.png`. Earlier source-exclusion checks are historical and no longer apply to this authorized link. The deck itself was not copied and its sharing settings were not changed. No push or publication performed.

@@ -24,4 +24,4 @@ The included workflow builds on pushes to `main` and publishes **only `dist/clie
 
 `public/resume.pdf` is a public copy of the SWE resume. `robots.txt` asks crawlers not to fetch it, but HTML `noindex` does not apply to PDFs, and robots exclusions cannot guarantee the PDF URL stays out of search. GitHub Pages does not provide per-file custom response headers. For stronger exclusion, remove the hosted PDF or use hosting with an `X-Robots-Tag` header for it. Replace this PDF when updating the resume.
 
-The source slide deck and its URL are deliberately excluded. Google Analytics is configured in `index.html` with measurement ID `G-J72GWKQZDL`. No external fonts are included.
+The header links to the Google Slides deck as “Detailed portfolio,” as requested. The deck itself is not stored in this repository, and its access permissions are managed separately in Google Slides. Google Analytics is configured in `index.html` with measurement ID `G-J72GWKQZDL`. No external fonts are included.

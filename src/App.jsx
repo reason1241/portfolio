@@ -46,6 +46,7 @@ export function App() {
           <Link href="https://github.com/reason1241">GitHub</Link>
           <Link href="https://www.linkedin.com/in/myeongsun-choi/">LinkedIn</Link>
           <Link href="./resume.pdf" aria-label="Open resume PDF">Resume<span className="file-type"> PDF</span></Link>
+          <Link href="https://docs.google.com/presentation/d/1HTjxQ45qR_qIDijBXwyvtyPq-idUJUZbIJhXeg77kl8/edit?usp=sharing">Detailed portfolio</Link>
         </nav>
       </header>
       <section id="experience" aria-labelledby="experience-heading">

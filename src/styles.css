@@ -47,7 +47,9 @@ footer { border-top: 1px solid var(--rule); padding-top: 23px; display: flex; ju
   h2 { font-size: 24px; margin-bottom: 22px; }
   .role { font-size: 21px; }
   .bio { font-size: 16px; margin-top: 18px; }
-  .contact-links a { padding: 0 12px; }
+  .contact-links { gap: 12px 20px; }
+  .contact-links a { padding: 0; }
+  .contact-links a + a { border-left: 0; }
   .contact-links a:first-child { padding-left: 0; }
   .contact-links a:last-child { padding-right: 0; }
   .intro { padding-bottom: 30px; }
